@@ -23,7 +23,8 @@ class Student:
     def get_score(self, get_score):
         self.get_score = get_score
         print("The score of the new student is ", get_score)
-
+    
+pass
 
 Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 
